@@ -1,0 +1,44 @@
+.root {
+  height: clamp(2em, 15vh, 16vh);
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.navbar {
+  background-color: var(--color-prime1);
+  width: 100%;
+  height: 30%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.navbar div {
+  margin-left: 10%;
+  margin-right: 10%;
+  outline: 2px solid #0f0;
+  outline-offset: -2px;
+}
+
+.link,
+.link_home {
+  font-size: 1em;
+  font-weight: 800;
+  text-decoration: none;
+  color: var(--color-text-white);
+}
+
+.link_home {
+  font-size: 1.25em;
+}
+.wave {
+  width: 100%;
+  height: 70%;
+  background-image: url(../wave.png);
+  background-size: 105%;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
