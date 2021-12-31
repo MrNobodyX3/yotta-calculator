@@ -13,26 +13,25 @@
   width: 100%;
   height: 30%;
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-}
-
-.navbar div {
-  margin-left: 10%;
-  margin-right: 10%;
-  outline: 2px solid #0f0;
-  outline-offset: -2px;
+  grid-template-columns: 1.25fr 1fr 1fr;
+  padding: 2em;
 }
 
 .link,
 .link_home {
-  font-size: 1em;
+  font-size: 2.5vmax;
   font-weight: 800;
   text-decoration: none;
   color: var(--color-text-white);
 }
 
 .link_home {
-  font-size: 1.25em;
+  font-size: 3.25vmax;
+}
+
+.link:hover,
+.link_home:hover {
+  color: var(--color-secondary);
 }
 .wave {
   width: 100%;

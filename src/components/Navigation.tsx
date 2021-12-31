@@ -13,12 +13,12 @@ export default function Navigation() {
         </div>
         <div>
           <Link className={styles.link} to="/calc">
-            Hello
+            Calculator
           </Link>
         </div>
         <div>
           <Link className={styles.link} to="/spending">
-            Hello
+            Spending
           </Link>
         </div>
       </div>

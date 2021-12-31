@@ -1,9 +1,10 @@
 .root {
-  background-color: var(--color-prime1);
+  background-color: var(--color-prime2);
 }
 
 .container {
   color: var(--color-text-white);
   margin-inline: auto;
-  width: min(90%, 1000px);
+  width: clamp(365px, 50%, 75ch);
+  min-height: 100vh;
 }
