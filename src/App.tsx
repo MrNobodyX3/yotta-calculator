@@ -1,11 +1,12 @@
 import React from "react";
-import logo from "./logo.svg";
 import styles from "./App.module.css";
 import { Outlet } from "react-router-dom";
+import Navigation from "./components/Navigation";
 
 function App() {
   return (
     <div className={styles.root}>
+      <Navigation />
       <div className={styles.container}>
         <Outlet />
       </div>

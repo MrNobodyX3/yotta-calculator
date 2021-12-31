@@ -13,7 +13,15 @@ ReactDOM.render(
           <Route index element={<h1>Home</h1>} />
           <Route path="calc" element={<h1>calc</h1>} />
           <Route path="spending" element={<h1>Spending</h1>} />
-          <Route path="*" element={<h1>404</h1>} />
+          <Route
+            path="*"
+            element={
+              <div>
+                <h1>404</h1>
+                <a>Page not found!</a>
+              </div>
+            }
+          />
         </Route>
       </Routes>
     </BrowserRouter>
