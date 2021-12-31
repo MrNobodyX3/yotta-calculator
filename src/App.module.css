@@ -1,0 +1,9 @@
+.root {
+  background-color: var(--color-prime1);
+}
+
+.container {
+  color: var(--color-text-white);
+  margin-inline: auto;
+  width: min(90%, 1000px);
+}
